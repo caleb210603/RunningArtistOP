@@ -1,0 +1,9 @@
+.dashboard-card {
+  max-width: 550px;
+  margin-top: 40px;
+  width: 50%;
+}
+
+.dashboard-card-content {
+  text-align: center;
+}

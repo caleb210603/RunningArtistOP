@@ -1,0 +1,13 @@
+.table-wrapper {
+  margin: 50px auto;
+}
+table {
+  width: 100%;
+}
+tr.editable-row {
+  background-color: lightskyblue;
+}
+
+.spacer {
+  margin-left: 30px;
+}

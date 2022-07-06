@@ -1,0 +1,15 @@
+<app-nav-bar></app-nav-bar>
+
+<mat-card class="dashboard-card" *ngFor="let offer of offers;">
+  <mat-card-header>
+    <mat-card-title>
+      {{offer.title}}
+    </mat-card-title>
+
+    <mat-card-subtitle>{{offer.description}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content class="dashboard-card-content">
+
+    Offer Points: <b>{{offer.points}}</b>
+  </mat-card-content>
+</mat-card>
